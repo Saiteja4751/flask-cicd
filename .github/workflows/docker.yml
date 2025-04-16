@@ -34,4 +34,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: saiteja4751/flask-devops-app:latest
+          tags: saiteja4751/flask-devops-app:v1
