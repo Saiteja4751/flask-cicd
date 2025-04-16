@@ -11,7 +11,7 @@ users = [
 # Home route
 @app.route('/')
 def home():
-    return "Welcome to the Flask API!"
+    return "Welcome to the Flask API! /n and it is a file update by sai teja"
 
 # Get all users
 @app.route('/users', methods=['GET'])
