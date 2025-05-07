@@ -2,9 +2,12 @@ from flask import *
 
 app = Flask(__name__)
 
+@app.route('/first')
+def template():
+    return render_template('index.html')
 @app.route('/')
 def hello_world():
-    return render_template('index.html')
+    return 'added sucessfully'
 
 
 if __name__ == '__main__':
