@@ -7,7 +7,7 @@ def template():
     return render_template('index.html')
 @app.route('/')
 def hello_world():
-    return 'added sucessfully'
+    return 'added sucessfully with sowmya'
 
 
 if __name__ == '__main__':
